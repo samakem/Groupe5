@@ -1,0 +1,4 @@
+[2022-12-13 13:15:35] local.ERROR: Maximum execution time of 60 seconds exceeded {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Maximum execution time of 60 seconds exceeded at C:\\Users\\USER\\Desktop\\Groupe5\\app\\Providers\\EventServiceProvider.php:10)
+[stacktrace]
+#0 {main}
+"} 

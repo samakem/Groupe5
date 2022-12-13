@@ -1,0 +1,211 @@
+/* body{
+    background: url(Pictures/R\ \(2\).jpeg);
+    background-repeat: no-repeat;
+   background-attachment: fixed;
+  background-size: 100%; 
+  
+   
+} */
+.box{
+    display: inline-block;
+}
+body{
+    margin-top: 0;
+}
+
+   .img{
+  text-align: center;
+ height: 20px;
+ width: auto;
+
+   }
+   input{
+    text-decoration: none;
+    font-size: 20px;
+    border: white;
+   margin-top: 5px;
+
+   }
+
+   input .placeholder{
+  text-decoration: none;
+  font-size: 1px;
+  color: white;
+   }
+
+ul{
+   list-style-type:none ;
+   font-size: 1.2em;
+   background: transparent;
+   padding-bottom: 1px;
+ 
+   
+  
+   
+}
+.navbar{
+    background-color: aquamarine;
+    font-size: 20px;
+    padding-bottom: 0.1%;
+    
+    }
+.search{
+
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 40%;
+    
+}
+input .placeholder{
+    color: silver;
+}
+li{
+   display: inline;
+   text-decoration: none;
+   margin: 20px;
+   padding-left: 5px;
+  
+  
+}
+li a{
+   text-decoration: none;
+   color: white;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+   font-weight: 100;
+   
+   
+   
+}
+li:hover{
+   font-weight: bold;
+   transition: 0.2s;
+   color: black;
+
+}
+h1{
+   margin: auto;
+   margin-top: 8%;
+   color:silver;
+   font-family :system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 3em;
+   text-align: center;
+   font-weight: 400;
+   
+  
+ 
+}
+.bienvenue{
+    color: aquamarine;
+    font-weight: 400;
+}
+.G5{
+    color: aquamarine;
+    font-weight: 400;
+}
+.btn{
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 15%;
+    margin-right: 10.5%;
+  
+
+    
+    
+    
+}
+.bt{
+    background:aquamarine ;
+    text-decoration: none;
+    font-size: 1.4em;
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 20px;
+}
+.bt:hover{
+    background:silver;
+    color: aqua;
+}
+
+/* photo */
+
+
+#Membre{
+    display: block;
+   flex-wrap: wrap; 
+    justify-content: space-between;
+    display:inline-block;
+margin-right: 4%;
+
+
+}
+.datenom{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    outline: none;
+}
+
+
+.classe{
+    width: 300px;
+    margin: 30px;
+    display: inline-block;
+    background-color: white;
+    padding-bottom: 15px;
+    border: 0px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22); 
+}
+.classe:hover{
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); 
+    transition: 0,3s;
+}
+.classe img{
+    min-width: 200px;
+    height: 300px;
+   /*  margin-left: 1%; */
+    margin-top: 10%;
+}
+.Pictures{
+    width: 300px;
+    height: 366px;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+}
+ .classe.datenom{
+    font-size: 0.7em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+  
+
+}
+.classe span{
+    text-transform: uppercase;
+    display:block;
+
+}
+.classe span a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+
+ a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+
+}
+ @media all and  (max-width:1000px){
+
+ }
+ body{
+    background-color: whitesmoke;
+ }
+ *{
+    box-sizing: border-box;
+}
